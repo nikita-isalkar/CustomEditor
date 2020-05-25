@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomEditor
+Bundle-SymbolicName: CustomEditor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: customeditor.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.editors,
+ org.eclipse.jface.text,
+ org.eclipse.ui.workbench
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: CustomEditor
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="customeditor.editor.MyXmlEditor"
+            default="false"
+            extensions="myxml"
+            id="customeditor.editor.MyXmlEditor"
+            name="MyXml Editor">
+      </editor>
+   </extension>
+
+</plugin>
